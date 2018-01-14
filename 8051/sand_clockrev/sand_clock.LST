@@ -1,0 +1,49 @@
+C51 COMPILER V9.03   SAND_CLOCK                                                            11/12/2016 14:28:50 PAGE 1   
+
+
+C51 COMPILER V9.03, COMPILATION OF MODULE SAND_CLOCK
+OBJECT MODULE PLACED IN sand_clock.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE sand_clock.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          void delay();
+   3          void main()
+   4          {
+   5   1      int i=0,j=0,k=8;
+   6   1      while(1)
+   7   1      {
+   8   2      for(i=0;i<k;i++)
+   9   2      {
+  10   3      delay();
+  11   3      P2=(128>>i)|j;
+  12   3      }
+  13   2      j=P2;
+  14   2      k--;
+  15   2      if(j==0x00)
+  16   2      {
+  17   3      j=0;
+  18   3      k=8;
+  19   3      }
+  20   2      }
+  21   1      }
+  22          void delay()
+  23          {
+  24   1      int i=50000;
+  25   1      while(i--);
+  26   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    113    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       6
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

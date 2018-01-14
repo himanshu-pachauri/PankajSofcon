@@ -1,0 +1,23 @@
+#include<lpc214x.h>
+void main()
+{
+VPBDIV=0x01;
+IODIR1=0x00ff0000;
+T1CTCR=0x00;
+T1PR=0x00;
+T1PC=0x00;
+T1TC=0x00;
+T1MR0=1000;
+T1MCR=0x03;
+T1TCR=0x01;
+while(1)  
+{
+while((T1IR&0x01)==0);
+T1IR=0x01;
+IOPIN1=0x00ff0000;
+
+while((T1IR&0x01)==0);
+T1IR=0x01;
+IOPIN1=0x00000000;
+}
+}

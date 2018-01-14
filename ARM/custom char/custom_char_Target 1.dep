@@ -1,0 +1,5 @@
+Dependencies for Project 'custom_char', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x53465958)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil_v5\ARM\INC" -I "C:\Keil_v5\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\char.c)(0x58943C16)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil_v5\ARM\INC" -I "C:\Keil_v5\ARM\INC\Philips" -o "char.o" --omf_browse "char.crf" --depend "char.d")
+I (C:\Keil_v5\ARM\RV31\INC\stdio.h)(0x4BD063B4)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x53465962)

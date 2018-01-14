@@ -1,0 +1,91 @@
+C51 COMPILER V9.03   SERIAL                                                                11/30/2016 12:52:54 PAGE 1   
+
+
+C51 COMPILER V9.03, COMPILATION OF MODULE SERIAL
+OBJECT MODULE PLACED IN serial.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE serial.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          sbit rs=P1^0;
+   3          sbit rw=P1^1;
+   4          sbit en=P1^2;
+   5          void lcd_data(unsigned char x);
+   6          void lcd_command(unsigned char x);
+   7          void lcd_ini();
+   8          void delay();
+   9          void serial_tx(unsigned char *x)
+  10          {
+  11   1      while(*x)
+  12   1      {
+  13   2      SBUF=*x;
+  14   2      while(TI==0);
+  15   2      TI=0;
+  16   2      delay();
+  17   2      x++;
+  18   2      }
+  19   1      }
+  20          void main()
+  21          {
+  22   1      lcd_ini();
+  23   1      TMOD=0x20;
+  24   1      TH1=0xfd;
+  25   1      TR1=1;
+  26   1      SCON=0x50;
+  27   1      
+  28   1      while(1)
+  29   1      {
+  30   2      while(RI==0);
+  31   2      RI=0;
+  32   2      
+  33   2      lcd_data(SBUF);
+  34   2      }
+  35   1      }
+  36          void lcd_ini()
+  37          {
+  38   1      lcd_command(0x38);
+  39   1      lcd_command(0x06);
+  40   1      lcd_command(0x01);
+  41   1      lcd_command(0x0e);
+  42   1      lcd_command(0x80);
+  43   1      }
+  44          void lcd_data(unsigned char x)
+  45          {
+  46   1      P2=x;
+  47   1      rs=1;
+  48   1      rw=0;
+  49   1      en=1;
+  50   1      delay();
+  51   1      en=0;
+  52   1      }
+  53          void lcd_command(unsigned char x)
+  54          {
+  55   1      P2=x;
+C51 COMPILER V9.03   SERIAL                                                                11/30/2016 12:52:54 PAGE 2   
+
+  56   1      rs=0;
+  57   1      rw=0;
+  58   1      en=1;
+  59   1      delay();
+  60   1      en=0;
+  61   1      }
+  62          void delay()
+  63          {
+  64   1      int i=5000;
+  65   1      while(i--);
+  66   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    136    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       3
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

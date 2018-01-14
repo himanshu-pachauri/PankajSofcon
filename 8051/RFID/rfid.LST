@@ -1,0 +1,103 @@
+C51 COMPILER V9.51   RFID                                                                  07/03/2017 14:19:08 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE RFID
+OBJECT MODULE PLACED IN rfid.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE rfid.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          void delay()
+   3          {
+   4   1      int i=5;
+   5   1      while(i--);
+   6   1      }
+   7          unsigned char rx()
+   8          {
+   9   1      while(RI==0);
+  10   1      RI=0;
+  11   1      return SBUF;
+  12   1      }
+  13          void tx(unsigned char x)
+  14          {SBUF=x;
+  15   1      while(TI==0);
+  16   1      TI=0;
+  17   1      }
+  18          void string(unsigned char *p)
+  19          {
+  20   1      while(*p)
+  21   1      {
+  22   2      tx(*p++);
+  23   2      }
+  24   1      }
+  25          void string_cmp(unsigned char a[])
+  26          {unsigned char d[][13]={"123456789011"//;
+  27   1                                              ,       "123456789012"///                                                                               
+  28   1                                      ,"123456789013"//
+  29   1                              ,"123456789014"};
+  30   1        
+  31   1      int i=0,j=0;
+  32   1      for(j=0;j<4;j++)
+  33   1      {  for(i=0;(a[i]==d[j][i]) && (i<13 ) ;i++);
+  34   2      if(i==13)
+  35   2      {
+  36   3      break;
+  37   3      }
+  38   2      }
+  39   1      i--;
+  40   1      if((i==12))
+  41   1      {  
+  42   2      switch(j)
+  43   2      {
+  44   3      case 0:
+  45   3      string(" Pankaj");
+  46   3      break;
+  47   3      case 1:
+  48   3      string(" GAURAV");
+  49   3      break;  
+  50   3      case 2:
+  51   3      string(" VIMAL");
+  52   3      break;
+  53   3      case 3:
+  54   3      string(" AMAR");
+  55   3      break;
+C51 COMPILER V9.51   RFID                                                                  07/03/2017 14:19:08 PAGE 2   
+
+  56   3      }
+  57   2      }
+  58   1      else
+  59   1      string(" YOU ARE NOT AUTHORIZED");
+  60   1      }
+  61          void main()
+  62          {int i=0;
+  63   1      unsigned char a[13];
+  64   1      TMOD=0x20;
+  65   1      TH1=-3;
+  66   1      TR1=1;
+  67   1      SCON=0x50;
+  68   1      tx('a');
+  69   1      while(1)
+  70   1      {
+  71   2      for(i=0;i<12;i++)
+  72   2      {
+  73   3      a[i]=rx();
+  74   3      }
+  75   2      a[i]=0;
+  76   2      string_cmp(a);
+  77   2      }
+  78   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    336    ----
+   CONSTANT SIZE    =    105    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      77
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

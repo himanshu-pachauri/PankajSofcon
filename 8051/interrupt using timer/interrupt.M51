@@ -1,0 +1,155 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        12/08/2016  16:43:33  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE STARTUP.obj, interrupt.obj TO interrupt
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  STARTUP.obj (?C_STARTUP)
+  interrupt.obj (INTERRUPT)
+
+
+LINK MAP OF MODULE:  interrupt (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     0008H                  *** GAP ***
+            CODE    000BH     0003H     ABSOLUTE     
+                    000EH     07F2H                  *** GAP ***
+            CODE    0800H     0010H     UNIT         ?PR?MAIN?INTERRUPT
+            CODE    0810H     000FH     UNIT         ?PR?DELAY?INTERRUPT
+            CODE    081FH     000CH     UNIT         ?C_C51STARTUP
+            CODE    082BH     000AH     UNIT         ?PR?EX0?INTERRUPT
+            CODE    0835H     0001H     UNIT         ?PR?F1MS?INTERRUPT
+
+
+
+OVERLAY MAP OF MODULE:   interrupt (?C_STARTUP)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?INTERRUPT
+
+?PR?MAIN?INTERRUPT
+  +--> ?PR?DELAY?INTERRUPT
+
+
+
+SYMBOL TABLE OF MODULE:  interrupt (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:081FH         SEGMENT       ?C_C51STARTUP
+  I:0008H         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/08/2016  16:43:33  PAGE 2
+
+
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:0822H         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:081FH         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         126
+  C:081FH         LINE#         133
+  C:0821H         LINE#         134
+  C:0822H         LINE#         135
+  C:0823H         LINE#         136
+  C:0825H         LINE#         185
+  C:0828H         LINE#         196
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        INTERRUPT
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  C:082BH         PUBLIC        ex0
+  D:00A8H         PUBLIC        IE
+  C:0810H         PUBLIC        delay
+  C:0800H         PUBLIC        main
+  D:0089H         PUBLIC        TMOD
+  D:008CH         PUBLIC        TH0
+  D:008AH         PUBLIC        TL0
+  B:0088H.4       PUBLIC        TR0
+  C:0835H         PUBLIC        f1ms
+  -------         PROC          DELAY
+  -------         DO            
+  D:0006H         SYMBOL        i
+  -------         ENDDO         
+  C:0810H         LINE#         2
+  C:0810H         LINE#         3
+  C:0810H         LINE#         4
+  C:0814H         LINE#         5
+  C:081EH         LINE#         6
+  -------         ENDPROC       DELAY
+  -------         PROC          F1MS
+  C:0835H         LINE#         7
+  C:0835H         LINE#         8
+  C:0835H         LINE#         10
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/08/2016  16:43:33  PAGE 3
+
+
+  -------         ENDPROC       F1MS
+  -------         PROC          EX0
+  C:082BH         LINE#         11
+  C:082BH         LINE#         12
+  C:082EH         LINE#         13
+  C:0831H         LINE#         14
+  C:0834H         LINE#         15
+  -------         ENDPROC       EX0
+  -------         PROC          MAIN
+  C:0800H         LINE#         16
+  C:0800H         LINE#         17
+  C:0800H         LINE#         18
+  C:0803H         LINE#         19
+  C:0806H         LINE#         20
+  C:0808H         LINE#         21
+  C:0808H         LINE#         22
+  C:0808H         LINE#         23
+  C:080BH         LINE#         24
+  C:080EH         LINE#         25
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        INTERRUPT
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?F1MS?INTERRUPT
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 003CH BYTE ( 2%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=60
+LINK/LOCATE RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

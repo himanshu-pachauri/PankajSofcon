@@ -1,0 +1,1130 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\sofcon\Desktop\pankaj\lcd\lcd.uvproj
+Project File Date:  11/17/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(30): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=362
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(24): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(28): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=356
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(24): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(29): error C236: '_lcd_integer': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=14.0 xdata=0 code=352
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(43): error C267: 'delay': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(43): error C267: 'delay': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(52): error C267: 'delay': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=14.0 xdata=0 code=352
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=14.0 xdata=0 code=352
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(33): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(29): error C236: '_lcd_integer': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(24): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=362
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(24): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=362
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(24): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=390
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(24): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(24): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(24): error C202: 'z': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=420
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=420
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=420
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=420
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=424
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=424
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=420
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=424
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=424
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=424
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=424
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=424
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=398
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(29): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=366
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(29): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=366
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(41): error C141: syntax error near 'lcd_data'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=405
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(29): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=366
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(25): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(29): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=366
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'y': undefined identifier
+lcd.c(35): error C202: 'y': undefined identifier
+lcd.c(49): error C237: '_lcd_integer': function already has a body
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'y': undefined identifier
+lcd.c(41): error C202: 'x': undefined identifier
+lcd.c(49): error C237: '_lcd_integer': function already has a body
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'y': undefined identifier
+lcd.c(42): error C141: syntax error near 'while'
+lcd.c(49): error C237: '_lcd_integer': function already has a body
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'y': undefined identifier
+lcd.c(49): error C237: '_lcd_integer': function already has a body
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'y': undefined identifier
+lcd.c(41): error C231: 'y': redefinition
+lcd.c(49): error C237: '_lcd_integer': function already has a body
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'y': undefined identifier
+lcd.c(49): error C237: '_lcd_integer': function already has a body
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=400
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(35): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(35): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=400
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=400
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+Program Size: data=18.0 xdata=0 code=400
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+Program Size: data=18.0 xdata=0 code=400
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'x': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=399
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(33): error C202: 'y': undefined identifier
+lcd.c(36): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(32): error C236: '_lcd_integer': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=20.0 xdata=0 code=420
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'x': unreferenced local variable
+lcd.c(36): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(36): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(36): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+Program Size: data=18.0 xdata=0 code=392
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(42): error C202: 'x': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(41): error C236: '_lcd_print': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(27): warning C209: '_lcd_print': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+Program Size: data=18.0 xdata=0 code=398
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+Program Size: data=18.0 xdata=0 code=400
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'x': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=407
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=22.0 xdata=0 code=408
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=22.0 xdata=0 code=408
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=22.0 xdata=0 code=408
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=22.0 xdata=0 code=408
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=22.0 xdata=0 code=408
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=22.0 xdata=0 code=408
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+lcd.c(44): error C183: unmodifiable lvalue
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=24.0 xdata=0 code=429
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=24.0 xdata=0 code=429
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(20): warning C280: 'y': unreferenced local variable
+lcd.c(33): error C141: syntax error near 'for'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(33): error C141: syntax error near 'for'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(33): error C141: syntax error near 'for'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(33): error C141: syntax error near 'for'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(33): error C141: syntax error near 'for'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(33): error C141: syntax error near 'for'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(31): error C236: '_lcd_integer': different length of parameter lists
+lcd.c(33): error C141: syntax error near 'for'
+lcd.c(35): error C202: 'y': undefined identifier
+lcd.c(36): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(31): error C236: '_lcd_integer': different length of parameter lists
+lcd.c(33): error C141: syntax error near 'for'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(31): error C236: '_lcd_integer': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=392
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=392
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+Program Size: data=18.0 xdata=0 code=392
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=392
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'z': undefined identifier
+lcd.c(36): error C202: 'z': undefined identifier
+lcd.c(42): error C202: 'y': undefined identifier
+lcd.c(43): error C202: 'y': undefined identifier
+lcd.c(45): error C202: 'y': undefined identifier
+lcd.c(46): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'z': undefined identifier
+lcd.c(36): error C202: 'z': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'z': undefined identifier
+lcd.c(36): error C202: 'z': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C202: 'z': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+Program Size: data=16.0 xdata=0 code=386
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(40): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=388
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): warning C209: '_lcd_integer': too few actual parameters
+lcd.c(40): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=388
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+lcd.c(40): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=392
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(26): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+lcd.c(40): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=395
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+lcd.c(40): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=407
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+lcd.c(40): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=411
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+lcd.c(41): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=413
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(27): error C141: syntax error near '<string>'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(27): error C141: syntax error near '0xc2'
+lcd.c(27): error C211: call not to a function
+lcd.c(27): error C208: 'function': too many actual parameters
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(27): error C211: call not to a function
+lcd.c(27): error C208: 'function': too many actual parameters
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+lcd.c(40): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=395
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+lcd.c(44): error C141: syntax error near 'z'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_PRINT?LCD
+Program Size: data=18.0 xdata=0 code=427
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(20): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(19): warning C280: 'z': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=18.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(19): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=439
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd.c(39): warning C235: parameter 1: different types
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_INTEGER?LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_FLOAT
+    MODULE:  lcd.obj (LCD)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_FLOAT
+    MODULE:  lcd.obj (LCD)
+    ADDRESS: 09A2H
+Program Size: data=16.0 xdata=0 code=517
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?LCD
+Program Size: data=16.0 xdata=0 code=433
+creating hex file from "lcd"...
+"lcd" - 0 Error(s), 1 Warning(s).

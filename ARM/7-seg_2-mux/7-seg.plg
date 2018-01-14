@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\HOME\Desktop\pankaj\ARM\7-seg_2-mux\7-seg.uvproj
+Project File Date:  02/04/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling 7-seg.c...
+7-seg.c(7): warning:  #951-D: return type of function "main" must be "int"
+7-seg.c(34): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1096 RO-data=28 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"7-seg.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling 7-seg.c...
+7-seg.c(7): warning:  #951-D: return type of function "main" must be "int"
+7-seg.c(34): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1096 RO-data=28 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"7-seg.axf" - 0 Error(s), 2 Warning(s).

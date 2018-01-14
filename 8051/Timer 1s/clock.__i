@@ -1,0 +1,1 @@
+"..\digital clock\clock.c" BROWSE DEBUG OBJECTEXTEND PRINT(.\clock.lst) OBJECT(.\clock.obj)

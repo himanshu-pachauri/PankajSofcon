@@ -1,0 +1,96 @@
+C51 COMPILER V9.03   LCD                                                                   11/29/2016 11:28:01 PAGE 1   
+
+
+C51 COMPILER V9.03, COMPILATION OF MODULE LCD
+OBJECT MODULE PLACED IN lcd.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE lcd.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<stdio.h>
+   2          #include<reg51.h>
+   3          sbit rs=P1^0;
+   4          sbit rw=P1^1;
+   5          sbit en=P1^2;
+   6          sbit sw=P3^4;
+   7          void delay();
+   8          void lcd_data(unsigned char x);
+   9          void lcd_command(unsigned char x);
+  10          void lcd_ini();
+  11          void lcd_integer(int x);
+  12          void string(unsigned char *p)
+  13          {
+  14   1      while(*p)
+  15   1      {
+  16   2      lcd_data(*p++);
+  17   2      }
+  18   1      }
+  19          void main()
+  20          {
+  21   1      int i=1;
+  22   1      lcd_ini();
+  23   1      {
+  24   2      TMOD=0x05;
+  25   2      TR0=1;
+  26   2      while(1)
+  27   2      {
+  28   3      i=(TH0<<8)+TL0;
+  29   3      lcd_integer(i);
+  30   3      lcd_command(0x80);
+  31   3      }
+  32   2      }
+  33   1      }
+  34          void lcd_ini()
+  35          {
+  36   1      lcd_command(0x38);
+  37   1      lcd_command(0x06);
+  38   1      lcd_command(0x01);
+  39   1      lcd_command(0x0e);
+  40   1      lcd_command(0x80);
+  41   1      }
+  42          void lcd_integer(int x)
+  43          {
+  44   1      unsigned char a[10];
+  45   1      sprintf(a,"%d",x);
+  46   1      string(a);
+  47   1      }
+  48          
+  49          void lcd_data(unsigned char x)
+  50          {
+  51   1      P2=x;
+  52   1      rs=1;
+  53   1      rw=0;
+  54   1      en=1;
+  55   1      delay();
+C51 COMPILER V9.03   LCD                                                                   11/29/2016 11:28:01 PAGE 2   
+
+  56   1      en=0;
+  57   1      }
+  58          void lcd_command(unsigned char x)
+  59          {
+  60   1      P2=x;
+  61   1      rs=0;
+  62   1      rw=0;
+  63   1      en=1;
+  64   1      delay();
+  65   1      en=0;
+  66   1      }
+  67          void delay()
+  68          {
+  69   1      int x=30000;
+  70   1      while(x--);
+  71   1      } 
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    179    ----
+   CONSTANT SIZE    =      3    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      15
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

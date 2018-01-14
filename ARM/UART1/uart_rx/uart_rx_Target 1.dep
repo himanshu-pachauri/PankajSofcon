@@ -1,0 +1,4 @@
+Dependencies for Project 'uart_rx', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x53465958)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil_v5\ARM\INC" -I "C:\Keil_v5\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\uart_rx.c)(0x589EA9DC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil_v5\ARM\INC" -I "C:\Keil_v5\ARM\INC\Philips" -o "uart_rx.o" --omf_browse "uart_rx.crf" --depend "uart_rx.d")
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x53465962)

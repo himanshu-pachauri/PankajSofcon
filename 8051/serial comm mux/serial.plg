@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\HOME\Desktop\pankaj\8051\serial comm mux\serial.uvproj
+Project File Date:  12/02/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY?SERIAL
+Program Size: data=19.0 xdata=0 code=566
+creating hex file from "serial"...
+"serial" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+serial.c(25): error C202: 'ss3': undefined identifier
+serial.c(30): error C202: 'ss3': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY?SERIAL
+Program Size: data=19.0 xdata=0 code=551
+creating hex file from "serial"...
+"serial" - 0 Error(s), 1 Warning(s).

@@ -1,0 +1,972 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\sofcon\Desktop\pankaj\8051\digital clock\clock.uvproj
+Project File Date:  11/26/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(23): warning C206: 'lcd_integer': missing function-prototype
+clock.c(23): error C267: 'lcd_integer': requires ANSI-style prototype
+clock.c(35): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+clock.c(35): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+clock.c(45): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08AFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08BDH
+Program Size: data=12.0 xdata=0 code=209
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(45): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08AFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08BDH
+Program Size: data=12.0 xdata=0 code=209
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(45): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08AFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08BDH
+Program Size: data=12.0 xdata=0 code=209
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(46): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08B3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08C1H
+Program Size: data=12.0 xdata=0 code=213
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(46): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08B6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08C4H
+Program Size: data=12.0 xdata=0 code=216
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(48): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08B6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08C4H
+Program Size: data=12.0 xdata=0 code=216
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(23): error C267: 'digi_clock': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+clock.c(23): error C267: 'digi_clock': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+clock.c(23): error C267: 'digi_clock': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+clock.c(48): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08B6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08C4H
+Program Size: data=12.0 xdata=0 code=216
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(48): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08B6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08C4H
+Program Size: data=12.0 xdata=0 code=216
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(50): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08B6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08C4H
+Program Size: data=12.0 xdata=0 code=216
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(48): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08B6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 08C4H
+Program Size: data=12.0 xdata=0 code=216
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(72): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(72): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(25): error C267: 'digi_clock': requires ANSI-style prototype
+clock.c(25): error C141: syntax error near ':'
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+clock.c(25): error C267: 'digi_clock': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+clock.c(25): error C267: 'digi_clock': requires ANSI-style prototype
+clock.c(25): error C141: syntax error near ':'
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+clock.c(72): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(72): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(72): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(72): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(25): warning C209: '_lcd_data': too few actual parameters
+clock.c(71): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(71): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(74): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(74): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 09FFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A0DH
+Program Size: data=22.0 xdata=0 code=545
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(74): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 09FFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A0DH
+Program Size: data=22.0 xdata=0 code=545
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(74): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(74): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_COMMAND?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 09E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 09F2H
+Program Size: data=22.0 xdata=0 code=523
+creating hex file from "clock"...
+"clock" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(74): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(75): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(76): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(76): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER_DELAY?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A10H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(76): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIGI_CLOCK?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A02H
+Program Size: data=22.0 xdata=0 code=548
+creating hex file from "clock"...
+"clock" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(76): warning C206: 'delay': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY
+    MODULE:  clock.obj (CLOCK)
+    ADDRESS: 0A0AH
+Program Size: data=22.0 xdata=0 code=556
+creating hex file from "clock"...
+"clock" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=556
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=556
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=561
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=564
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=586
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=601
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=586
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=583
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=583
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=583
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(89): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=553
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=553
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=553
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=553
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=553
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=553
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=553
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=556
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=556
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRING?CLOCK
+Program Size: data=22.0 xdata=0 code=556
+creating hex file from "clock"...
+"clock" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(51): warning C206: 'sprintf': missing function-prototype
+clock.c(51): error C267: 'sprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(52): warning C206: 'sprintf': missing function-prototype
+clock.c(52): error C267: 'sprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+clock.c(53): warning C206: 'sprintf': missing function-prototype
+clock.c(53): error C267: 'sprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1324
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1321
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1321
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+clock.c(53): warning C182: pointer to different objects
+clock.c(54): warning C182: pointer to different objects
+linking...
+Program Size: data=56.1 xdata=0 code=1321
+creating hex file from "clock"...
+"clock" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=56.1 xdata=0 code=1321
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1351
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1346
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1345
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1342
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1321
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling clock.c...
+linking...
+Program Size: data=46.1 xdata=0 code=1351
+creating hex file from "clock"...
+"clock" - 0 Error(s), 0 Warning(s).

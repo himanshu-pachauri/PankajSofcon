@@ -1,0 +1,31 @@
+#include<lpc214x.h>
+int main()
+{
+int x=0,i=0,j;
+IODIR1=0xffff0000;
+PINSEL0=0x02<<14;
+VPBDIV=0x01;
+PWMTCR=(1<<3)|(1<<4);
+PWMMCR=(1<<3)|(1<<4);
+PWMMR1=100000;
+PWMPR=0x00;
+PWMPC=0x00;
+PWMTC=0x00;
+PWMPCR=(1<<10);
+while(1)
+{
+for(i=10;i<100000;i=i*10)
+{ 
+for(j=0;j<5;j++)
+{
+PWMMR1=i;
+while(PWMMR1!=PWMTC);
+{
+x=~x;
+IOPIN1=(!x)<<16;
+PWMTC=0x00;
+}
+}
+}
+}
+}	

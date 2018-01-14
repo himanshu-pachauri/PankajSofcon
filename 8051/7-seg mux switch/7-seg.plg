@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\sofcon\Desktop\pankaj\7-seg mux switch\7-seg.uvproj
+Project File Date:  11/15/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 7-seg.c...
+linking...
+Program Size: data=25.0 xdata=0 code=438
+"7-seg" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=25.0 xdata=0 code=438
+"7-seg" - 0 Error(s), 0 Warning(s).
